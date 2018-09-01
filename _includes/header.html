@@ -1,0 +1,8 @@
+<!-- header -->
+<div class="row head-row">
+  <div class="col-sm">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <h1 id="sitetitle"><a class="" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+  </div>
+</div>

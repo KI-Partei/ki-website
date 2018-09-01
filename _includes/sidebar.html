@@ -1,0 +1,18 @@
+<div class="col-md-3">
+  <p class="sitedescription">This is not a real party (yet), this is an experiment to imagine a data-driven form of governance.</p>
+  {%- if page_paths -%}
+  <ul class="nav flex-column">
+    {%- for item in site.data.pages.pages -%}
+
+      <li class="nav-item">
+        <a class="nav-link active" href="{{ item.url }}">{{ item.title | escape }}</a>
+      </li>
+
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  <a href="/newsletter-signup" id="newslettersignup" class="btn btn-primary mt-30 hidden-sm hidden-xs">Newsletter sign up</a>
+  <div class="mobile-spacer visible-sm-block"></div>
+
+</div>

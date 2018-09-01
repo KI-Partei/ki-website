@@ -1,0 +1,15 @@
+pages:
+  - title: Home
+    url: /
+
+  - title: Ai Manifesto
+    url: /ai-manifesto
+
+  - title: Spokesbot
+    url:  /spokesbot
+
+  - title: Community
+    url:  /community
+
+  - title: Contact
+    url:  /contact

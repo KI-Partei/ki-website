@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+
+
+    <!-- Site Content -->
+  <div class="container">
+    <!-- header -->
+    {%- include header.html -%}
+    <!-- columns -->
+    <div class="row">
+      {%- include sidebar.html -%}
+      <!-- Main content column -->
+      <div class="col-md-6 offset-md-1">
+        {{ content }}
+      </div>
+      <!-- //Main content column -->
+    </div>
+  </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

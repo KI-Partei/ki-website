@@ -1,2 +1,0 @@
-# website
-KI-Partei Website
